@@ -1,0 +1,6 @@
+{
+  "name": "Rajasthan Tourism",
+  "description": "A modern, premium, interactive travel and cultural discovery experience for Rajasthan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Royal Rajasthani Arch & Sun Motif -->
+  <rect width="64" height="64" rx="14" fill="#241B15" />
+  <!-- Outer Arch Outline -->
+  <path d="M14 50V30C14 20.0589 22.0589 12 32 12C41.9411 12 50 20.0589 50 30V50" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Inner Cusped Jharokha Arch -->
+  <path d="M20 50V33C20 28 24 23 32 17C40 23 44 28 44 33V50" stroke="#B85D38" stroke-width="2" stroke-linecap="round" />
+  <!-- Golden Sun Core -->
+  <circle cx="32" cy="31" r="5" fill="#D97706" />
+  <circle cx="32" cy="31" r="2.5" fill="#FAF7F2" />
+  <!-- Base Plinth -->
+  <line x1="10" y1="50" x2="54" y2="50" stroke="#D97706" stroke-width="2.5" stroke-linecap="round" />
+</svg>

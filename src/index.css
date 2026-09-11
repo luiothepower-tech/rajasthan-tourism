@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  
+  --color-sandstone-50: #FAF7F2;
+  --color-sandstone-100: #F5EFE6;
+  --color-sandstone-200: #E7DFD5;
+  --color-sandstone-300: #D6C9B9;
+  --color-sandstone-400: #BCAC98;
+  
+  --color-terracotta-50: #FDF6F3;
+  --color-terracotta-100: #F9EBE5;
+  --color-terracotta-200: #F3D4C7;
+  --color-terracotta-500: #B85D38;
+  --color-terracotta-600: #9E4A2A;
+  --color-terracotta-700: #843B20;
+  
+  --color-crimson-700: #842222;
+  --color-crimson-800: #6B1B1B;
+  
+  --color-indigo-700: #2A4B6B;
+  --color-indigo-800: #1D344B;
+  
+  --color-saffron-500: #D97706;
+  --color-saffron-600: #B45309;
+}
+
+:root {
+  --bg-app: #FAF7F2;
+  --surface-card: #FFFFFF;
+  --surface-elevated: #F5EFE6;
+  --text-primary: #1C1917;
+  --text-secondary: #57534E;
+  --text-muted: #78716C;
+  --border-subtle: #E7DFD5;
+  --border-strong: #D6C9B9;
+  --accent-primary: #B85D38;
+  --accent-primary-hover: #9E4A2A;
+  --accent-royal: #2A4B6B;
+  --accent-crimson: #842222;
+  --accent-saffron: #D97706;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility: Respect user reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
